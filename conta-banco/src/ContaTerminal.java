@@ -21,8 +21,8 @@ public class ContaTerminal {
         double saldo = sc.nextDouble();
 
         ContaBancaria conta = new ContaBancaria(numero, agencia, nome, saldo);
-
         System.out.println(conta);
+        sc.close();
 
     }
 
